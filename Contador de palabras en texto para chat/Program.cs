@@ -16,7 +16,7 @@ namespace ConsoleApp6
             for (int i = 0; i < text.Length; i++)
             {
                 bandera = true;
-                linea = text[i].ToCharArray();
+                linea = text[i].ToCharArray(); // Corta las palabras de forma automatica
                 for (int j = 0; j < linea.Length; j++)
                 {
                     if (linea[j] == letra[0])
