@@ -19,7 +19,7 @@ namespace ConsoleApp6
                 linea = text[i].ToCharArray(); // Corta las palabras de forma automatica
                 for (int j = 0; j < linea.Length; j++)
                 {
-                    if (linea[j] == letra[0])
+                    if (linea[j] == letra[0]) // me cuenta las letras
                     {
                         numLetra++;
                     }
