@@ -12,7 +12,7 @@ namespace ConsoleApp6
             String letra ;
             string[] text = System.IO.File.ReadAllLines(@"C:\Users\Frolo\Desktop\prueba.txt"); // Solo se debe cambiar la ruta donde esta el texto
             Console.WriteLine("Letra a verificasr la cantidad: ");
-            letra = Console.ReadLine(); // se carga el texto 
+            letra = Console.ReadLine(); // se carga el texto txt
             for (int i = 0; i < text.Length; i++)
             {
                 bandera = true;
